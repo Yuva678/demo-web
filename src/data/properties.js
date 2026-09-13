@@ -1,0 +1,228 @@
+// ============================================================
+// Property Listings — Fictional Demo Data
+// ============================================================
+// Image URLs are structured placeholders. Replace the URLs in
+// each property's `images` array with real photography before
+// going live. Each property uses unique, visually diverse images.
+// ============================================================
+
+const properties = [
+  {
+    id: 'serenity-heights',
+    name: 'Serenity Heights',
+    type: 'Apartment',
+    bhk: 3,
+    location: 'Whitefield',
+    price: '₹1.45 Cr',
+    bedrooms: 3,
+    bathrooms: 3,
+    area: '1,850 sq ft',
+    featured: true,
+    description:
+      'A thoughtfully designed 3 BHK apartment in the heart of Whitefield, offering modern interiors with panoramic views of the surrounding greenery. Close to IT parks, international schools, and premium shopping destinations.',
+    features: [
+      'Modular kitchen with premium fittings',
+      'Floor-to-ceiling windows',
+      'Covered car parking — 2 slots',
+      'Clubhouse & swimming pool access',
+      '24/7 security with CCTV',
+      'Power backup',
+    ],
+    images: [
+      '/images/media_1789311694930.jpg',
+      '/images/media_1789311702823.jpg',
+      '/images/media_1789311708803.jpg',
+    ],
+  },
+  {
+    id: 'oakwood-villa',
+    name: 'Oakwood Villa',
+    type: 'Villa',
+    bhk: 4,
+    location: 'Sarjapur Road',
+    price: '₹3.20 Cr',
+    bedrooms: 4,
+    bathrooms: 4,
+    area: '3,200 sq ft',
+    featured: true,
+    description:
+      'A spacious independent villa on Sarjapur Road, featuring lush landscaping, private garden, and contemporary architecture. Ideal for families seeking space, privacy, and proximity to Bengaluru\'s tech corridor.',
+    features: [
+      'Private garden with landscaping',
+      'Italian marble flooring',
+      'Home automation ready',
+      'Servant quarters',
+      'Rainwater harvesting',
+      'Vastu-compliant design',
+    ],
+    images: [
+      '/images/media_1789311877193.jpg',
+      '/images/media_1789311694930.jpg',
+      '/images/media_1789311708803.jpg',
+    ],
+  },
+  {
+    id: 'the-canopy',
+    name: 'The Canopy',
+    type: 'Apartment',
+    bhk: 3,
+    location: 'Indiranagar',
+    price: '₹2.10 Cr',
+    bedrooms: 3,
+    bathrooms: 2,
+    area: '1,650 sq ft',
+    featured: true,
+    description:
+      'A premium 3 BHK apartment in one of Bengaluru\'s most vibrant neighbourhoods. Walk to 12th Main\'s cafés, boutiques, and metro station. Designed for those who value location and lifestyle.',
+    features: [
+      'Walking distance to metro station',
+      'Semi-furnished with wardrobes',
+      'Gym & rooftop terrace',
+      'Visitor parking',
+      'Earthquake-resistant structure',
+      'Children\'s play area',
+    ],
+    images: [
+      '/images/media_1789311702823.jpg',
+      '/images/media_1789311877193.jpg',
+      '/images/media_1789311694930.jpg',
+    ],
+  },
+  {
+    id: 'lake-terrace',
+    name: 'Lake Terrace',
+    type: 'Apartment',
+    bhk: 4,
+    location: 'Hebbal',
+    price: '₹2.85 Cr',
+    bedrooms: 4,
+    bathrooms: 3,
+    area: '2,400 sq ft',
+    featured: true,
+    description:
+      'An expansive 4 BHK apartment near Hebbal Lake, offering serene lake-facing views and excellent connectivity to the airport and Manyata Tech Park. Premium finishes throughout.',
+    features: [
+      'Lake-facing balcony',
+      'Imported vitrified tiles',
+      'Video door phone',
+      'Indoor games room',
+      'Jogging track',
+      'EV charging station',
+    ],
+    images: [
+      '/images/media_1789311708803.jpg',
+      '/images/media_1789311702823.jpg',
+      '/images/media_1789311877193.jpg',
+    ],
+  },
+  {
+    id: 'prestige-greens',
+    name: 'Prestige Greens',
+    type: 'Apartment',
+    bhk: 3,
+    location: 'Whitefield',
+    price: '₹1.65 Cr',
+    bedrooms: 3,
+    bathrooms: 2,
+    area: '1,720 sq ft',
+    featured: false,
+    description:
+      'A well-appointed 3 BHK apartment in a gated community in Whitefield. Features extensive amenities, green spaces, and easy access to ITPL and Phoenix Marketcity.',
+    features: [
+      'Gated community with 5 acres of greenery',
+      'Badminton & tennis courts',
+      'Senior citizen corner',
+      'Multi-purpose hall',
+      'Organic waste composting',
+      'Fire safety systems',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1567496898669-ee935f5f647a?w=800&q=80',
+      'https://images.unsplash.com/photo-1600585154340-be6161a56a0c?w=800&q=80',
+      'https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?w=800&q=80',
+    ],
+  },
+  {
+    id: 'urban-nest',
+    name: 'Urban Nest',
+    type: 'Apartment',
+    bhk: 3,
+    location: 'Koramangala',
+    price: '₹1.90 Cr',
+    bedrooms: 3,
+    bathrooms: 2,
+    area: '1,580 sq ft',
+    featured: false,
+    description:
+      'A contemporary 3 BHK in Koramangala\'s startup hub. Minutes from Forum Mall, top restaurants, and Bengaluru\'s best co-working spaces. Perfect for young professionals and families.',
+    features: [
+      'Open-plan living & dining',
+      'Piped gas connection',
+      'Covered balcony',
+      'Dedicated cycling track',
+      'Package locker system',
+      'Pet-friendly campus',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1493809842364-78817add7ffb?w=800&q=80',
+      'https://images.unsplash.com/photo-1560185893-a55cbc8c57e8?w=800&q=80',
+      'https://images.unsplash.com/photo-1560448204-e02f11c3d0e2?w=800&q=80',
+    ],
+  },
+  {
+    id: 'cedar-grove-villa',
+    name: 'Cedar Grove Villa',
+    type: 'Villa',
+    bhk: 4,
+    location: 'Sarjapur Road',
+    price: '₹4.50 Cr',
+    bedrooms: 4,
+    bathrooms: 5,
+    area: '4,100 sq ft',
+    featured: false,
+    description:
+      'A luxury 4 BHK villa with a private pool, landscaped garden, and premium interiors. Located in a serene gated villa community on Sarjapur Road with clubhouse access.',
+    features: [
+      'Private swimming pool',
+      'Home theatre room',
+      'Modular kitchen with island',
+      'Triple-height foyer',
+      'Solar panels installed',
+      'Smart home automation',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1613977257363-707ba9348227?w=800&q=80',
+      'https://images.unsplash.com/photo-1600585153490-76fb20a32601?w=800&q=80',
+      'https://images.unsplash.com/photo-1600573472591-ee6b68d14c68?w=800&q=80',
+    ],
+  },
+  {
+    id: 'horizon-towers',
+    name: 'Horizon Towers',
+    type: 'Apartment',
+    bhk: 4,
+    location: 'JP Nagar',
+    price: '₹2.35 Cr',
+    bedrooms: 4,
+    bathrooms: 3,
+    area: '2,100 sq ft',
+    featured: false,
+    description:
+      'A premium 4 BHK apartment in JP Nagar with excellent south Bengaluru connectivity. Features a rooftop infinity pool, modern gym, and thoughtfully planned interiors.',
+    features: [
+      'Rooftop infinity pool',
+      'Double-glazed windows',
+      'Wooden flooring in bedrooms',
+      'Amphitheatre',
+      'Library & co-working lounge',
+      'IGBC Gold-rated green building',
+    ],
+    images: [
+      'https://images.unsplash.com/photo-1574362848149-11496d93a7c7?w=800&q=80',
+      'https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?w=800&q=80',
+      'https://images.unsplash.com/photo-1512917774080-9991f1c4c750?w=800&q=80',
+    ],
+  },
+];
+
+export default properties;
